@@ -1,0 +1,74 @@
+:root {
+  --true-black-rgb: 0, 0, 0;
+  --true-white-rgb: 255, 255, 255;
+  --true-white: #fff;
+  --font-family: var(--bs-font-sans-serif);
+  --font-size: 1rem;
+  --font-weight: 400;
+  --line-height: 1.5;
+  --color: #212529;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+  color: rgba(var(--true-white-rgb), 0.65);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navbar:hover {
+  color: rgba(var(true-black-rgb), 0.8);
+}
+
+.navbar > brand {
+  display: block;
+}
+
+.brand {
+  padding: 0.3125rem 0;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  color: var(--true-white);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand:hover {
+  color: rgba(var(true-black-rgb), 1);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav > .link {
+  padding: 0 0.5rem;
+  display: block;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  color: rgba(var(true-black-rgb), 0.55);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.link:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.navbar > .container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}

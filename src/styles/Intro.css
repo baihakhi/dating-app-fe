@@ -1,0 +1,27 @@
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+
+.col .title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 4px 3px black;
+  letter-spacing: 4px;
+  align-items: center;
+}
+
+.intro-button button {
+  margin-top: 20px;
+}
+
+.home-title {
+  display: flex;
+  color: #fff;
+  align-items: center !important;
+  justify-content: center !important;
+}
